@@ -5,3 +5,10 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+User.create(username: "tiagom87", email: "jason@teamtreehouse.com", password: "lovestuk", password_confirmation: "lovestuk")
+User.create(username: "tiagom88", email: "jim@teamtreehouse.com", password: "lovestuk", password_confirmation: "lovestuk")
+User.create(username: "tiagom89", email: "nick@teamtreehouse.com", password: "lovestuk", password_confirmation: "lovestuk")
+User.create(username: "tiagom90", email: "mike@teamtreehouse.com", password: "lovestuk", password_confirmation: "lovestuk")
+User.create(username: "tiagom91", email: "ryan@teamtreehouse.com", password: "lovestuk", password_confirmation: "lovestuk")
+ 
+p "Test users created"
