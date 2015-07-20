@@ -1,13 +1,33 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
 body {
-  padding-top: 50px;
+	padding-top: 50px;
 }
 
-
 .alert {
-  position: absolute;
-  z-index: 1;
-  width: 200px;
+	position: absolute;
+	z-index: 1;
+	width: 200px;
+}
+
+.front-title {
+	margin-top: 100px;
+  
+  background: -webkit-linear-gradient(90deg, #004FF9 10%, #FFF94C 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #004FF9 10%, #FFF94C 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #004FF9 10%, #FFF94C 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #004FF9 10%, #FFF94C 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #004FF9 10%, #FFF94C 90%); /* W3C */
+        
+}
+
+.landing { 
+  background: image-url("wallpaper.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
 }
